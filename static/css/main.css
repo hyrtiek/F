@@ -1,0 +1,15 @@
+.post-card {
+    flex: 1 1 calc(20% - 1rem); /* Allow 5 items per row */
+    margin: 0.5rem;
+    display: flex;
+    flex-direction: column; /* Arrange content vertically */
+    justify-content: space-between; /* Space out post and replies */
+}
+.post-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start; /* Align items to the left */
+}
+.reply-container {
+    margin-top: 10px; /* Add space between the post and its replies */
+}
